@@ -1,0 +1,93 @@
+h1
+{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.form-upload
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+form, .result-box, .info-file
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.result-box, .info-file
+{
+    margin-top: 40px;
+}
+
+.result-box
+{
+    margin-bottom: 50px;
+}
+
+.submit-form
+{
+    margin-top: 20px;
+    height: 40px;
+}
+
+.container-card
+{
+    margin-bottom: 40px;
+}
+.card-box
+{
+    position: relative;
+}
+
+.info-img-box
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    visibility: hidden;
+    transition: 1s;
+}
+
+.card-box:hover .info-img-box
+{
+    visibility: visible; 
+    transition: 1s;
+    background-color: #ffffffb3;
+}
+
+.nbr-img
+{
+    margin-top: 20%;
+}
+
+.title-img
+{
+    font-size: 70%;
+}
+
+.img-file
+{
+    width: 80%;
+    border: 2px solid #b7b7b7;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.container
+{
+ 
+    text-align: center;
+}
+
+.delete-button
+{
+    position: absolute;
+    color: red;
+    top: 5%;
+    right: 15%;
+}
+
